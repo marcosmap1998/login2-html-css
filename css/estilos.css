@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    background: #2f3542;
+}
+
+.barra-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.barra-nav ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.barra-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.barra-nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.form-box{
+    width: 25%;
+    background: #2f3542;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.form-title{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box button[type="submit"]{
+    background: none;
+    width: 75%;
+    padding: 20px;
+    margin: 20px auto;
+    border: none;
+    color: #fff;
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"]{
+    border: 1px solid #fff;
+    border-radius: 25px;
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus{
+    width: 90%;
+    transition: 0.35s;
+}
+
+.form-box button[type="submit"]{
+    border: 1px solid #fff;
+    border-radius: 25px;
+    width: 70%;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-box button[type="submit"]:hover{
+    background: #fff;
+    color: #2f3542;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.form-box a{
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgba(200, 198, 204, 100);
+}
+
+.form-box a:hover{
+    color: #fff;
+}
+
+
